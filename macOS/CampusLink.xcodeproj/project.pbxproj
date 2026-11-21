@@ -1,0 +1,38 @@
+// !$*UTF8*$!
+{
+archiveVersion = 1;
+classes = {};
+objectVersion = 56;
+objects = {
+644D42D7C6F9A78BF3538F3C = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App/ConnectionModel.swift"; sourceTree = "<group>"; };
+A49D93F1D486E964CD4EE7C7 = { isa = PBXBuildFile; fileRef = 644D42D7C6F9A78BF3538F3C; };
+E5FAF91A2886C05CC1F68E05 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App/Preferences.swift"; sourceTree = "<group>"; };
+2166AC01EC5648C26FB25A73 = { isa = PBXBuildFile; fileRef = E5FAF91A2886C05CC1F68E05; };
+000000000000000000000004 = { isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HTTP/HTTP.c; sourceTree = "<group>"; };
+000000000000000000000005 = { isa = PBXBuildFile; fileRef = 000000000000000000000004; };
+000000000000000000000001 = { isa = PBXFileReference; lastKnownFileType = image.icns; path = CampusLink.icns; sourceTree = "<group>"; };
+000000000000000000000002 = { isa = PBXBuildFile; fileRef = 000000000000000000000001; };
+000000000000000000000003 = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (000000000000000000000002); runOnlyForDeploymentPostprocessing = 0; };
+89E1FD6268CC0F221A2BE178 /* projectDebug */ = { isa = XCBuildConfiguration; buildSettings = { MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; ALWAYS_SEARCH_USER_PATHS = NO; SWIFT_VERSION = 5.0; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; ONLY_ACTIVE_ARCH = YES; }; name = Debug; };
+E6DE6C99132752C914FEF632 /* projectRelease */ = { isa = XCBuildConfiguration; buildSettings = { MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; ALWAYS_SEARCH_USER_PATHS = NO; SWIFT_VERSION = 5.0; SWIFT_COMPILATION_MODE = wholemodule; }; name = Release; };
+862894B703A6DEDF96A9DD6C /* projectconfigs */ = { isa = XCConfigurationList; buildConfigurations = (89E1FD6268CC0F221A2BE178,E6DE6C99132752C914FEF632); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+7082CC0B6FC1282FCEABD07A /* targetDebug */ = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_NAME = CampusLink; PRODUCT_BUNDLE_IDENTIFIER = org.campuslink.CampusLinkMac; INFOPLIST_FILE = AppInfo.plist; OTHER_LDFLAGS = "-lcurl"; SWIFT_OBJC_BRIDGING_HEADER = HTTP/include/CampusHTTP.h; HEADER_SEARCH_PATHS = HTTP/include; CODE_SIGN_IDENTITY = "-"; ENABLE_HARDENED_RUNTIME = YES; CODE_SIGN_ENTITLEMENTS = CampusLink.entitlements; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; ONLY_ACTIVE_ARCH = YES; }; name = Debug; };
+639A7CA24D39909E713B47F7 /* targetRelease */ = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_NAME = CampusLink; PRODUCT_BUNDLE_IDENTIFIER = org.campuslink.CampusLinkMac; INFOPLIST_FILE = AppInfo.plist; OTHER_LDFLAGS = "-lcurl"; SWIFT_OBJC_BRIDGING_HEADER = HTTP/include/CampusHTTP.h; HEADER_SEARCH_PATHS = HTTP/include; CODE_SIGN_IDENTITY = "-"; ENABLE_HARDENED_RUNTIME = YES; CODE_SIGN_ENTITLEMENTS = CampusLink.entitlements; SWIFT_COMPILATION_MODE = wholemodule; }; name = Release; };
+C57128001CE614BF8549D6BB /* targetconfigs */ = { isa = XCConfigurationList; buildConfigurations = (7082CC0B6FC1282FCEABD07A,639A7CA24D39909E713B47F7); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+29B6626B05F364F7FF66FCDB /* App/CampusLinkApp.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App/CampusLinkApp.swift"; sourceTree = "<group>"; };
+13B8CF271ED1CF9006DB50DA /* build App/CampusLinkApp.swift */ = { isa = PBXBuildFile; fileRef = 29B6626B05F364F7FF66FCDB; };
+EC4D5E496768972CF3D163AF /* Storage/Keychain.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storage/Keychain.swift"; sourceTree = "<group>"; };
+610F7ED0A7447FEA58B2A498 /* build Storage/Keychain.swift */ = { isa = PBXBuildFile; fileRef = EC4D5E496768972CF3D163AF; };
+16F5D7C4409D06CA683EA27E /* Core/Portal.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Core/Portal.swift"; sourceTree = "<group>"; };
+D6F3B3891FCBA70423D3AE56 /* build Core/Portal.swift */ = { isa = PBXBuildFile; fileRef = 16F5D7C4409D06CA683EA27E; };
+BD274922252D2FD24CF49587 /* Core/Transport.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Core/Transport.swift"; sourceTree = "<group>"; };
+1F006E42B7BBD9BE90D3569A /* build Core/Transport.swift */ = { isa = PBXBuildFile; fileRef = BD274922252D2FD24CF49587; };
+BCE16DD0260827ECF338C787 /* sources */ = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (000000000000000000000005,A49D93F1D486E964CD4EE7C7,2166AC01EC5648C26FB25A73,13B8CF271ED1CF9006DB50DA,610F7ED0A7447FEA58B2A498,D6F3B3891FCBA70423D3AE56,1F006E42B7BBD9BE90D3569A); runOnlyForDeploymentPostprocessing = 0; };
+7D1043473D55BFA90E8530D3 /* app */ = { isa = PBXFileReference; explicitFileType = wrapper.application; path = CampusLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+FBDC4F23F93125BBEEAE800C /* products */ = { isa = PBXGroup; children = (7D1043473D55BFA90E8530D3); name = Products; sourceTree = "<group>"; };
+DC76E9F0C0006E8F919E0C51 /* root */ = { isa = PBXGroup; children = (000000000000000000000004,644D42D7C6F9A78BF3538F3C,E5FAF91A2886C05CC1F68E05,000000000000000000000001,29B6626B05F364F7FF66FCDB,EC4D5E496768972CF3D163AF,16F5D7C4409D06CA683EA27E,BD274922252D2FD24CF49587,FBDC4F23F93125BBEEAE800C); sourceTree = "<group>"; };
+0E8A3AD980EC179856012B7E /* target */ = { isa = PBXNativeTarget; buildConfigurationList = C57128001CE614BF8549D6BB; buildPhases = (000000000000000000000003,BCE16DD0260827ECF338C787); dependencies = (); buildRules = (); name = CampusLink; productName = CampusLink; productReference = 7D1043473D55BFA90E8530D3; productType = "com.apple.product-type.application"; };
+98F54143AB4E86B28C3AFEE0 /* project */ = { isa = PBXProject; buildConfigurationList = 862894B703A6DEDF96A9DD6C; compatibilityVersion = "Xcode 14.0"; developmentRegion = zh_CN; hasScannedForEncodings = 0; knownRegions = (zh_CN, Base); mainGroup = DC76E9F0C0006E8F919E0C51; productRefGroup = FBDC4F23F93125BBEEAE800C; projectDirPath = ""; projectRoot = ""; targets = (0E8A3AD980EC179856012B7E); };
+};
+rootObject = 98F54143AB4E86B28C3AFEE0;
+}

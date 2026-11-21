@@ -1,5 +1,7 @@
 # CampusLink 校园网助手
 
+Swift 原生 macOS 客户端：[下载 v1.0.0 DMG](https://github.com/zhouycheng/CampusLink/releases/latest/download/CampusLink-macOS-v1.0.0.dmg) · [功能与构建说明](macOS/README.md)。
+
 面向喀什大学当前 Dr.COM 校园网的非官方 Windows 连接工具，使用 **C++20、C++/WinRT 和 WinUI 3** 开发。
 
 [下载最新版本](https://github.com/JiangfengPang/CampusLink/releases/latest) · [使用说明](使用说明.txt) · [认证流程与凭据处理](docs/AUTHENTICATION.md) · [更新记录](CHANGELOG.md)

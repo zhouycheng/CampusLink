@@ -9,3 +9,4 @@
 *.xaml text eol=crlf
 *.vcxproj text eol=crlf
 *.ico binary
+macOS/**/*.h text eol=lf
