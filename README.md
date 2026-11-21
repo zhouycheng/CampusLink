@@ -4,13 +4,10 @@
 
 <p align="center">
   <img src="docs/images/connection.webp" alt="CampusLink 连接面板" width="304">
-  <img src="docs/images/settings.webp" alt="CampusLink 账号组和自启设置" width="386">
 </p>
 
 <p align="center">
-  <a href="https://github.com/zhouycheng/CampusLink/releases/latest"><strong>下载 macOS 版（DMG）</strong></a>
-  <br>
-  <a href="macOS/README.md">使用与构建</a> · <a href="LICENSE">MIT License</a>
+  <a href="https://github.com/zhouycheng/CampusLink/releases/latest"><strong>下载 macOS 版（DMG）</strong></a> · <a href="macOS/README.md">使用与构建</a> · <a href="LICENSE">MIT License</a>
 </p>
 
 ## 安装和使用
